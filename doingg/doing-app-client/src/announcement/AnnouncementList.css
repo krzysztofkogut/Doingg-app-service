@@ -1,0 +1,57 @@
+
+.loadOfferList {
+	/* text-align: center; */
+	margin-top: 150px;
+}
+.no-offers-found {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;    
+}
+
+.load-more-offers {
+    text-align: center;
+    margin-bottom: 40px;    
+}
+.offers-container {
+    margin-top: 40px;
+}   
+.searchHeader {
+	position: top;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	padding: 0em 0;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	box-shadow: 0em .1em .1em 0em #f0f1f2;
+	z-index: 2;
+}
+
+.searchHeader input {
+    margin-top: 40px;
+
+	text-align: center;
+	background: none;
+	border: none;
+	padding: 0.8em;
+	font-size: 1em;
+	width: 40%;
+	font-weight: 100;
+	color: rgb(115, 89, 133);
+	border-bottom: 2px solid #f0f1f2;
+	transition: 0.4s all ease-in-out;
+	margin-bottom: 1em;
+}
+.searchHeader input:focus {
+	font-size: 1.5em;
+	width: 70%;
+	outline: none;
+	color: rgb(0, 0, 0);
+	border-bottom: 2px solid #f0f1f2;
+}
+.searchHeader input::placeholder {
+	color: rgb(0, 0, 0);
+}
